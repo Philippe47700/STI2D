@@ -30,6 +30,13 @@
 
         .metier {
             margin-bottom: 15px; /* Espacement entre les métiers */
+            margin: 10px; 
+            padding: 10px; 
+            border-radius: 5px; 
+            cursor: pointer;
+            background-color: #fff; /* Fond blanc */
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Ombre légère */
+            transition: transform 0.2s; /* Transition douce */ 
         }
 
         .metier h3 {
@@ -37,16 +44,13 @@
         }
         h1, h2 { color: #333; }
         .container { display: flex; flex-wrap: wrap; }
-        .metier { margin: 10px; padding: 10px; border-radius: 5px; cursor: pointer; }
         .formation { width: 45%; margin: 10px; padding: 10px; border-radius: 5px; cursor: pointer; }
-        .metier { background-color: #e6f3ff; }
         .formation { background-color: #e6ffe6; }
         .possibilites { display: none; margin-left: 20px; padding: 10px; background-color: #f0f0f0; border-radius: 5px; }
         .sous-formation { margin-top: 10px; padding: 5px; background-color: #fff; border-radius: 3px; }
-        body {
-    background-color: #f0f8ff;
-    font-family: 'Arial', sans-serif;
-}
+    
+
+
 @media (max-width: 1200px) {
     .secteur {
         width: calc(33.33% - 20px); /* Trois colonnes sur écrans moyens */
@@ -68,20 +72,6 @@
     transform: scale(1.02); /* Agrandit légèrement au survol */
     transition: transform 0.3s ease; /* Transition douce */
 }
-.separator {
-    height: 1px;
-    background-color: #ccc;
-    margin: 10px 0;
-}
-.metier {
-    background-color: #fff; /* Fond blanc */
-    border-radius: 8px; /* Coins arrondis */
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Ombre légère */
-    padding: 15px; /* Espacement interne */
-    margin-bottom: 15px; /* Espacement entre les cartes */
-    transition: transform 0.2s; /* Transition douce */
-}
-
 .metier:hover {
     transform: scale(1.02); /* Agrandissement au survol */
 }
@@ -126,7 +116,10 @@ h1, h2 {
     <h1>Poursuites d'études et Métiers</h1>
     <div style="text-align: center; margin: 20px 0;">
         <a href="https://saintecatherinesti2d.glide.page" target="_blank" style="font-size: 18px; color: #3498db; text-decoration: none;">
-            Accéder à l'application Sainte Catherine STI2D en complément pour voir les projets réalisés en I2D et Energie ainsi qu'avoir accès aux documents relatifs à la filière<BR>
+            Accéder à l'application Sainte Catherine STI2D en complément pour voir les projets réalisés en I2D et Energie ainsi qu'avoir accès aux documents relatifs à la filière<BR><BR>
+        </a>
+        <a href="https://drive.google.com/file/d/15BbPRx7rGbejmyfJqJwtTnbUXx3LYXQG/view?usp=sharing" target="_blank" style="font-size: 18px; color: #3498db; text-decoration: none;">
+            Accéder au pdf de présentation et stage d'immersion en STI2D <BR>
         </a>
     </div>
     <h2>Métiers</h2>
